@@ -4,16 +4,16 @@ import argparse
 
 
 def dump():
-    for x in parse.uniprot_seqrecords("H:/CSC1034/Practical-2/uniprot_receptor.xml.gz"):
+    for x in parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"):
         print(x)
 
 def names():
-    for x in parse.uniprot_seqrecords("H:/CSC1034/Practical-2/uniprot_receptor.xml.gz"):
+    for x in parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"):
         print(x.name)
 
 def average():
     print("Average Length is {}".format(
-        analysis.average_len(parse.uniprot_seqrecords("H:/CSC1034/Practical-2/uniprot_receptor.xml.gz"))))
+        analysis.average_len(parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"))))
 
 def cli():
     #Create new parser
