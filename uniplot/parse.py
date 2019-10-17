@@ -9,4 +9,3 @@ def uniprot_seqrecords(file_location):
         records.append(x)
 
     return records
-
