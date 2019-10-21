@@ -8,10 +8,10 @@ def dump():
 
 def names():
     for x in parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"):
-        print(x.seq)
+        print(x.name)
 
 def average():
-    print("Average Length is {}".format(
+    print("Average Length is {:.3f}".format(
         analysis.average_len(parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"))))
 
 def cli():

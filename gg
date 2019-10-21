@@ -1,0 +1,16 @@
+
+from Bio import SeqIO
+import gzip
+
+def testy():
+    f=SeqIO.parse('resources/uniprot_sprot_small.xml', 'uniprot-xml')
+    y = 0
+    ggg = []
+    for x in f:
+        ggg.append(x)
+        y = y + len(x)
+    print('this is ', y)
+    print('second', len(ggg))
+    print('and average', y/len(ggg))
+
+testy()

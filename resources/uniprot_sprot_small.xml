@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="37" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZX4</accession>
+    <name>001R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Putative transcription factor 001R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-001R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="function">
+      <text evidence="1">Transcription activation.</text>
+    </comment>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09660.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031579.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="SwissPalm" id="Q6GZX4"/>
+    <dbReference type="GeneID" id="2947773"/>
+    <dbReference type="KEGG" id="vg:2947773"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0046782">
+      <property type="term" value="P:regulation of viral transcription"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR007031">
+      <property type="entry name" value="Poxvirus_VLTF3"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF04947">
+      <property type="entry name" value="Pox_VLTF3"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0010">Activator</keyword>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0804">Transcription</keyword>
+    <keyword id="KW-0805">Transcription regulation</keyword>
+    <feature type="chain" id="PRO_0000410512" description="Putative transcription factor 001R">
+      <location>
+        <begin position="1"/>
+        <end position="256"/>
+      </location>
+    </feature>
+    <feature type="compositionally biased region" description="Poly-Arg">
+      <location>
+        <begin position="14"/>
+        <end position="17"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000305" key="1"/>
+    <sequence length="256" mass="29735" checksum="B4840739BF7D4121" modified="2004-07-19" version="1">MAFSAEDVLKEYDRRRRMEALLLSLYYPNDRKLLDYKEWSPPRVQVECPKAPVEWNNPPSEKGLIVGHFSGIKYKGEKAQASEVDVNKMCCWVSKFKDAMRRYQGIQTCKIPGKVLSDLDAKIKAYNLTVEGVEGFVRYSRVTKQHVAAFLKELRHSKQYENVNLIHYILTDKRVDIQHLEKDLVKDFKALVESAHRMRQGHMINVKYILYQLLKKHGHGPDGPDILTVKTGSKGVLYDDSFRKIYTDLGWKFTPL</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="38" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZX3</accession>
+    <name>002L_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 002L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-002L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="2">Host membrane</location>
+        <topology evidence="2">Single-pass membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09661.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031580.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="2947774"/>
+    <dbReference type="KEGG" id="vg:2947774"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0033644">
+      <property type="term" value="C:host cell membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0016021">
+      <property type="term" value="C:integral component of membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR004251">
+      <property type="entry name" value="Pox_virus_G9/A16"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF03003">
+      <property type="entry name" value="Pox_G9-A16"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1043">Host membrane</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0812">Transmembrane</keyword>
+    <keyword id="KW-1133">Transmembrane helix</keyword>
+    <feature type="chain" id="PRO_0000410509" description="Uncharacterized protein 002L">
+      <location>
+        <begin position="1"/>
+        <end position="320"/>
+      </location>
+    </feature>
+    <feature type="transmembrane region" description="Helical" evidence="1">
+      <location>
+        <begin position="301"/>
+        <end position="318"/>
+      </location>
+    </feature>
+    <feature type="compositionally biased region" description="Pro-rich">
+      <location>
+        <begin position="263"/>
+        <end position="295"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <evidence type="ECO:0000305" key="2"/>
+    <sequence length="320" mass="34642" checksum="9E110808B6E328E0" modified="2004-07-19" version="1">MSIIGATRLQNDKSDTYSAGPCYAGGCSAFTPRGTCGKDWDLGEQTCASGFCTSQPLCARIKKTQVCGLRYSSKGKDPLVSAEWDSRGAPYVRCTYDADLIDTQAQVDQFVSMFGESPSLAERYCMRGVKNTAGELVSRVSSDADPAGGWCRKWYSAHRGPDQDAALGSFCIKNPGAADCKCINRASDPVYQKVKTLHAYPDQCWYVPCAADVGELKMGTQRDTPTNCPTQVCQIVFNMLDDGSVTMDDVKNTINCDFSKYVPPPPPPKPTPPTPPTPPTPPTPPTPPTPPTPRPVHNRKVMFFVAGAVLVAILISTVRW</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="25" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197F8</accession>
+    <name>002R_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 002R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-002R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82032.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654574.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="SMR" id="Q197F8"/>
+    <dbReference type="GeneID" id="4156251"/>
+    <dbReference type="KEGG" id="vg:4156251"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377938" description="Uncharacterized protein 002R">
+      <location>
+        <begin position="1"/>
+        <end position="458"/>
+      </location>
+    </feature>
+    <sequence length="458" mass="53921" checksum="E46E5C85D7ACA139" modified="2006-07-11" version="1">MASNTVSAQGGSNRPVRDFSNIQDVAQFLLFDPIWNEQPGSIVPWKMNREQALAERYPELQTSEPSEDYSGPVESLELLPLEIKLDIMQYLSWEQISWCKHPWLWTRWYKDNVVRVSAITFEDFQREYAFPEKIQEIHFTDTRAEEIKAILETTPNVTRLVIRRIDDMNYNTHGDLGLDDLEFLTHLMVEDACGFTDFWAPSLTHLTIKNLDMHPRWFGPVMDGIKSMQSTLKYLYIFETYGVNKPFVQWCTDNIETFYCTNSYRYENVPRPIYVWVLFQEDEWHGYRVEDNKFHRRYMYSTILHKRDTDWVENNPLKTPAQVEMYKFLLRISQLNRDGTGYESDSDPENEHFDDESFSSGEEDSSDEDDPTWAPDSDDSDWETETEEEPSVAARILEKGKLTITNLMKSLGFKPKPKKIQSIDRYFCSLDSNYNSEDEDFEYDSDSEDDDSDSEDDC</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="21" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197F7</accession>
+    <name>003L_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 003L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-003L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82033.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654575.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="4156252"/>
+    <dbReference type="KEGG" id="vg:4156252"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377939" description="Uncharacterized protein 003L">
+      <location>
+        <begin position="1"/>
+        <end position="156"/>
+      </location>
+    </feature>
+    <sequence length="156" mass="17043" checksum="D48A43940FF8C815" modified="2006-07-11" version="1">MYQAINPCPQSWYGSPQLEREIVCKMSGAPHYPNYYPVHPNALGGAWFDTSLNARSLTTTPSLTTCTPPSLAACTPPTSLGMVDSPPHINPPRRIGTLCFDFGSAKSPQRCECVASDRPSTTSNTAPDTYRLLITNSKTRKNNYGTCRLEPLTYGI</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="32" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZX2</accession>
+    <name>003R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 3R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-003R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09662.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031581.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="2947775"/>
+    <dbReference type="KEGG" id="vg:2947775"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0732">Signal</keyword>
+    <feature type="signal peptide" evidence="1">
+      <location>
+        <begin position="1"/>
+        <end position="32"/>
+      </location>
+    </feature>
+    <feature type="chain" id="PRO_0000410532" description="Uncharacterized protein 3R">
+      <location>
+        <begin position="33"/>
+        <end position="438"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <sequence length="438" mass="48297" checksum="075C8FA17B3C5C56" modified="2004-07-19" version="1" precursor="true">MARPLLGKTSSVRRRLESLSACSIFFFLRKFCQKMASLVFLNSPVYQMSNILLTERRQVDRAMGGSDDDGVMVVALSPSDFKTVLGSALLAVERDMVHVVPKYLQTPGILHDMLVLLTPIFGEALSVDMSGATDVMVQQIATAGFVDVDPLHSSVSWKDNVSCPVALLAVSNAVRTMMGQPCQVTLIIDVGTQNILRDLVNLPVEMSGDLQVMAYTKDPLGKVPAVGVSVFDSGSVQKGDAHSVGAPDGLVSFHTHPVSSAVELNYHAGWPSNVDMSSLLTMKNLMHVVVAEEGLWTMARTLSMQRLTKVLTDAEKDVMRAAAFNLFLPLNELRVMGTKDSNNKSLKTYFEVFETFTIGALMKHSGVTPTAFVDRRWLDNTIYHMGFIPWGRDMRFVVEYDLDGTNPFLNTVPTLMSVKRKAKIQEMFDNMVSRMVTS</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="30" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZX1</accession>
+    <name>004R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 004R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-004R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="2">Host membrane</location>
+        <topology evidence="2">Single-pass membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09663.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031582.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="2947776"/>
+    <dbReference type="KEGG" id="vg:2947776"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0033644">
+      <property type="term" value="C:host cell membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0016021">
+      <property type="term" value="C:integral component of membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1043">Host membrane</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0812">Transmembrane</keyword>
+    <keyword id="KW-1133">Transmembrane helix</keyword>
+    <feature type="chain" id="PRO_0000410528" description="Uncharacterized protein 004R">
+      <location>
+        <begin position="1"/>
+        <end position="60"/>
+      </location>
+    </feature>
+    <feature type="transmembrane region" description="Helical" evidence="1">
+      <location>
+        <begin position="14"/>
+        <end position="34"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <evidence type="ECO:0000305" key="2"/>
+    <sequence length="60" mass="6514" checksum="12F072778EE6DFE4" modified="2004-07-19" version="1">MNAKYDTDQGVGRMLFLGTIGLAVVVGGLMAYGYYYDGKTPSSGTSFHTASPSFSSRYRY</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="27" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197F5</accession>
+    <name>005L_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 005L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-005L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82035.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654577.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="SMR" id="Q197F5"/>
+    <dbReference type="GeneID" id="4156254"/>
+    <dbReference type="KEGG" id="vg:4156254"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0732">Signal</keyword>
+    <feature type="signal peptide" evidence="1">
+      <location>
+        <begin position="1"/>
+        <end position="24"/>
+      </location>
+    </feature>
+    <feature type="chain" id="PRO_0000377940" description="Uncharacterized protein 005L">
+      <location>
+        <begin position="25"/>
+        <end position="217"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <sequence length="217" mass="23854" checksum="6DBE65967D7EEBD5" modified="2006-07-11" version="1" precursor="true">MRYTVLIALQGALLLLLLIDDGQGQSPYPYPGMPCNSSRQCGLGTCVHSRCAHCSSDGTLCSPEDPTMVWPCCPESSCQLVVGLPSLVNHYNCLPNQCTDSSQCPGGFGCMTRRSKCELCKADGEACNSPYLDWRKDKECCSGYCHTEARGLEGVCIDPKKIFCTPKNPWQLAPYPPSYHQPTTLRPPTSLYDSWLMSGFLVKSTTAPSTQEEEDDY</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="39" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZX0</accession>
+    <name>005R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 005R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-005R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09664.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031583.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="SMR" id="Q6GZX0"/>
+    <dbReference type="PRIDE" id="Q6GZX0"/>
+    <dbReference type="GeneID" id="2947777"/>
+    <dbReference type="KEGG" id="vg:2947777"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR003360">
+      <property type="entry name" value="US22-like"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF02393">
+      <property type="entry name" value="US22"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000410513" description="Uncharacterized protein 005R">
+      <location>
+        <begin position="1"/>
+        <end position="204"/>
+      </location>
+    </feature>
+    <sequence length="204" mass="23418" checksum="13AC9A179015F769" modified="2004-07-19" version="1">MQNPLPEVMSPEHDKRTTTPMSKEANKFIRELDKKPGDLAVVSDFVKRNTGKRLPIGKRSNLYVRICDLSGTIYMGETFILESWEELYLPEPTKMEVLGTLESCCGIPPFPEWIVMVGEDQCVYAYGDEEILLFAYSVKQLVEEGIQETGISYKYPDDISDVDEEVLQQDEEIQKIRKKTREFVDKDAQEFQDFLNSLDASLLS</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="47" xmlns="http://uniprot.org/uniprot">
+    <accession>Q91G88</accession>
+    <name>006L_IIV6</name>
+    <protein>
+      <recommendedName>
+        <fullName>Putative KilA-N domain-containing protein 006L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV6-006L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 6</name>
+      <name type="common">IIV-6</name>
+      <name type="synonym">Chilo iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="176652"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Iridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Acheta domesticus</name>
+      <name type="common">House cricket</name>
+      <dbReference type="NCBI Taxonomy" id="6997"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Chilo suppressalis</name>
+      <name type="common">Asiatic rice borer moth</name>
+      <dbReference type="NCBI Taxonomy" id="168631"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Gryllus bimaculatus</name>
+      <name type="common">Two-spotted cricket</name>
+      <dbReference type="NCBI Taxonomy" id="6999"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Gryllus campestris</name>
+      <dbReference type="NCBI Taxonomy" id="58607"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Spodoptera frugiperda</name>
+      <name type="common">Fall armyworm</name>
+      <dbReference type="NCBI Taxonomy" id="7108"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2001" name="Virology" volume="286" first="182" last="196">
+        <title>Analysis of the first complete DNA sequence of an invertebrate iridovirus: coding strategy of the genome of Chilo iridescent virus.</title>
+        <authorList>
+          <person name="Jakob N.J."/>
+          <person name="Mueller K."/>
+          <person name="Bahr U."/>
+          <person name="Darai G."/>
+        </authorList>
+        <dbReference type="PubMed" id="11448171"/>
+        <dbReference type="DOI" id="10.1006/viro.2001.0963"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation type="journal article" date="2007" name="Virol. J." volume="4" first="11" last="11">
+        <title>Comparative genomic analysis of the family Iridoviridae: re-annotating and defining the core set of iridovirus genes.</title>
+        <authorList>
+          <person name="Eaton H.E."/>
+          <person name="Metcalf J."/>
+          <person name="Penny E."/>
+          <person name="Tcherepanov V."/>
+          <person name="Upton C."/>
+          <person name="Brunetti C.R."/>
+        </authorList>
+        <dbReference type="PubMed" id="17239238"/>
+        <dbReference type="DOI" id="10.1186/1743-422x-4-11"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+    </reference>
+    <comment type="similarity">
+      <text evidence="3">Belongs to the IIV-6 006L/238R/313L/468L family.</text>
+    </comment>
+    <dbReference type="EMBL" id="AF303741">
+      <property type="protein sequence ID" value="AAK81943.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="NP_149469.1">
+      <property type="nucleotide sequence ID" value="NC_003038.1"/>
+    </dbReference>
+    <dbReference type="SMR" id="Q91G88"/>
+    <dbReference type="PRIDE" id="Q91G88"/>
+    <dbReference type="GeneID" id="1733056"/>
+    <dbReference type="KEGG" id="vg:1733056"/>
+    <dbReference type="OrthoDB" id="8544at10239"/>
+    <dbReference type="Proteomes" id="UP000001359">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR022549">
+      <property type="entry name" value="DUF3627"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR017880">
+      <property type="entry name" value="KilA_N"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR018004">
+      <property type="entry name" value="KilA_N/APSES_HTH"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF12299">
+      <property type="entry name" value="DUF3627"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF04383">
+      <property type="entry name" value="KilA-N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="PROSITE" id="PS51301">
+      <property type="entry name" value="KILA_N"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-0175">Coiled coil</keyword>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377958" description="Putative KilA-N domain-containing protein 006L">
+      <location>
+        <begin position="1"/>
+        <end position="352"/>
+      </location>
+    </feature>
+    <feature type="domain" description="KilA-N" evidence="2">
+      <location>
+        <begin position="15"/>
+        <end position="123"/>
+      </location>
+    </feature>
+    <feature type="coiled-coil region" evidence="1">
+      <location>
+        <begin position="129"/>
+        <end position="236"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <evidence type="ECO:0000255" key="2">
+      <source>
+        <dbReference type="PROSITE-ProRule" id="PRU00631"/>
+      </source>
+    </evidence>
+    <evidence type="ECO:0000305" key="3"/>
+    <sequence length="352" mass="41658" checksum="3519C5E9E45A8AB6" modified="2001-12-01" version="1">MDSLNEVCYEQIKGTFYKGLFGDFPLIVDKKTGCFNATKLCVLGGKRFVDWNKTLRSKKLIQYYETRCDIKTESLLYEIKGDNNDEITKQITGTYLPKEFILDIASWISVEFYDKCNNIIINYFVNEYKTMDKKTLQSKINEVEEKMQKLLNEKEEELQEKNDKIDELILFSKRMEEDRKKDREMMIKQEKMLRELGIHLEDVSSQNNELIEKVDEQVEQNAVLNFKIDNIQNKLEIAVEDRAPQPKQNLKRERFILLKRNDDYYPYYTIRAQDINARSALKRQKNLYNEVSVLLDLTCHPNSKTLYVRVKDELKQKGVVFNLCKVSISNSKINEEELIKAMETINDEKRDV</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="28" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZW9</accession>
+    <name>006R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 006R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-006R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09665.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031584.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="SMR" id="Q6GZW9"/>
+    <dbReference type="GeneID" id="2947778"/>
+    <dbReference type="KEGG" id="vg:2947778"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000410535" description="Uncharacterized protein 006R">
+      <location>
+        <begin position="1"/>
+        <end position="75"/>
+      </location>
+    </feature>
+    <sequence length="75" mass="8848" checksum="DC926963B93EDF36" modified="2004-07-19" version="1">MYKMYFLKDQKFSLSGTIRINDKTQSEYGSVWCPGLSITGLHHDAIDHNMFEEMETEIIEYLGPWVQAEYRRIKG</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="26" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZW8</accession>
+    <name>007R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 007R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-007R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09666.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031585.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="PRIDE" id="Q6GZW8"/>
+    <dbReference type="GeneID" id="2947779"/>
+    <dbReference type="KEGG" id="vg:2947779"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000410565" description="Uncharacterized protein 007R">
+      <location>
+        <begin position="1"/>
+        <end position="128"/>
+      </location>
+    </feature>
+    <sequence length="128" mass="13707" checksum="9DD5475975A4405F" modified="2004-07-19" version="1">MRSIKPLRCCNAHGRHVSQEYGRCTLLLFREKLFLQTGLVCNKQCNAPNNDGAESKHHGIHHGSRGALALRGAGVHLLASAALGPRVLAGLVPTGRSVQGSVGQCGRVAQIGRARDVAARKQESYCEK</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="23" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197F3</accession>
+    <name>007R_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 007R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-007R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82037.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654579.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="4156256"/>
+    <dbReference type="KEGG" id="vg:4156256"/>
+    <dbReference type="OrthoDB" id="3335at10239"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR024416">
+      <property type="entry name" value="DUF2738"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF10927">
+      <property type="entry name" value="DUF2738"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377941" description="Uncharacterized protein 007R">
+      <location>
+        <begin position="1"/>
+        <end position="447"/>
+      </location>
+    </feature>
+    <sequence length="447" mass="52027" checksum="BE02EE24D34C1B46" modified="2006-07-11" version="1">MEAKNITIDNTTYNFFKFYNINQPLTNLKYLNSERLCFSNAVMGKIVDDASTITITYHRVYFGISGPKPRQVADLGEYYDVNELLNYDTYTKTQEFAQKYNSLVKPTIDAKNWSGNELVLLVGNEWYCKTFGKAGSKNVFLYNMIPTIYRDEPQHQEQILKKFMFFNATKNVEQNPNFLDNVPEEYYHLLLPKSWVEKNLSDKYRKIMETEHKPLVFSCEPAFSFGLCRNTQDKNESYQLSLCLYEREKPRDAEIVWAAKYDELAAMVRDYLKKTPEFKKYRSFISCMKGLSWKNNEIGDKDGPKLYPKVIFNRKKGEFVTIFTKDDDVEPETIEDPRTILDRRCVVQAALRLESVFVHNKVAIQLRINDVLISEWKEASSKPQPLILRRHRFTKPSSSVAKSTSPSLRNSGSDESDLNQSDSDKEDERVVPVPKTKRIVKTVKLPN</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="19" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197F2</accession>
+    <name>008L_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 008L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-008L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82038.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654580.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="4156257"/>
+    <dbReference type="KEGG" id="vg:4156257"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377800" description="Uncharacterized protein 008L">
+      <location>
+        <begin position="1"/>
+        <end position="347"/>
+      </location>
+    </feature>
+    <sequence length="347" mass="37905" checksum="5668FE61005BBE9D" modified="2006-07-11" version="1">MSFKVYDPIAELIATQFPTSNPDLQIINNDVLVVSPHKITLPMGPQNAGDVTNKAYVDQAVMSAAVPVASSTTVGTIQMAGDLEGSSGTNPIIAANKITLNKLQKIGPKMVIGNPNSDWNNTQEIELDSSFRIVDNRLNAGIVPISSTDPNKSNTVIPAPQQNGLFYLDSSGRVWVWAEHYYKCITPSRYISKWMGVGDFQELTVGQSVMWDSGRPSIETVSTQGLEVEWISSTNFTLSSLYLIPIVVKVTICIPLLGQPDQMAKFVLYSVSSAQQPRTGIVLTTDSSRSSAPIVSEYITVNWFEPKSYSVQLKEVNSDSGTTVTICSDKWLANPFLDCWITIEEVG</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="56" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZW6</accession>
+    <name>009L_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Putative helicase 009L</fullName>
+        <ecNumber>3.6.4.-</ecNumber>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-009L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EC" id="3.6.4.-"/>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09668.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031587.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="PRIDE" id="Q6GZW6"/>
+    <dbReference type="GeneID" id="2947781"/>
+    <dbReference type="KEGG" id="vg:2947781"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0005524">
+      <property type="term" value="F:ATP binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0003677">
+      <property type="term" value="F:DNA binding"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="InterPro"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0004386">
+      <property type="term" value="F:helicase activity"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <dbReference type="Gene3D" id="3.40.50.10810">
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR006935">
+      <property type="entry name" value="Helicase/UvrB_N"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR014001">
+      <property type="entry name" value="Helicase_ATP-bd"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR001650">
+      <property type="entry name" value="Helicase_C"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR027417">
+      <property type="entry name" value="P-loop_NTPase"/>
+    </dbReference>
+    <dbReference type="InterPro" id="IPR038718">
+      <property type="entry name" value="SNF2-like_sf"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF00271">
+      <property type="entry name" value="Helicase_C"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="Pfam" id="PF04851">
+      <property type="entry name" value="ResIII"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="SMART" id="SM00487">
+      <property type="entry name" value="DEXDc"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="SMART" id="SM00490">
+      <property type="entry name" value="HELICc"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="SUPFAM" id="SSF52540">
+      <property type="entry name" value="SSF52540"/>
+      <property type="match status" value="2"/>
+    </dbReference>
+    <dbReference type="PROSITE" id="PS51192">
+      <property type="entry name" value="HELICASE_ATP_BIND_1"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <dbReference type="PROSITE" id="PS51194">
+      <property type="entry name" value="HELICASE_CTER"/>
+      <property type="match status" value="1"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0067">ATP-binding</keyword>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-0347">Helicase</keyword>
+    <keyword id="KW-0378">Hydrolase</keyword>
+    <keyword id="KW-0547">Nucleotide-binding</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000410580" description="Putative helicase 009L">
+      <location>
+        <begin position="1"/>
+        <end position="948"/>
+      </location>
+    </feature>
+    <feature type="domain" description="Helicase ATP-binding" evidence="1">
+      <location>
+        <begin position="64"/>
+        <end position="243"/>
+      </location>
+    </feature>
+    <feature type="domain" description="Helicase C-terminal" evidence="2">
+      <location>
+        <begin position="371"/>
+        <end position="554"/>
+      </location>
+    </feature>
+    <feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+      <location>
+        <begin position="77"/>
+        <end position="84"/>
+      </location>
+    </feature>
+    <feature type="short sequence motif" description="DEAH box">
+      <location>
+        <begin position="187"/>
+        <end position="190"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1">
+      <source>
+        <dbReference type="PROSITE-ProRule" id="PRU00541"/>
+      </source>
+    </evidence>
+    <evidence type="ECO:0000255" key="2">
+      <source>
+        <dbReference type="PROSITE-ProRule" id="PRU00542"/>
+      </source>
+    </evidence>
+    <sequence length="948" mass="106444" checksum="FD4765111B43B4FF" modified="2004-07-19" version="1">MDTSPYDFLKLYPWLSRGEADKGTLLDAFPGETFEQSLASDVAMRRAVQDDPAFGHQKLVETFLSEDTPYRELLLFHAPGTGKTCTVVSVAERAKEKGLTRGCIVLARGAALLRNFLHELVFNCGTGGRYIPEGYADMGDQERTRKMRKAVSSYYQFRTYETFAKSVATMSAEAIRARYDRFVIVMDEVHHLRSVQAEGVNTYSAISRFLRTVRGCVKMLLTGTPMTNEPGELADVLNLILPQDKTIRPEDGIFSNSGDLLKPDELAERVRGRVSYLKAARPDAGLTFAGEVLGGTGMTHLRLVRLEMSAFQSDAYASAWDQDAGDRNIFSNSRQCSLAVMPDRRWGSAAEARNPSQVRRMAGQNLAEYSVKYDYLVRVASSSPKTFAYCEYVNGSGLSLLSDILLANGWRRATGRETTPGKRFALLTASQKNIHKIVQRFNHEDNVDGAYISLLLGSRVVAEGLTFKEVRHTVILTPHWNYTETAQAIARSWRAGSHDRLKARGEAVAVTVHRLVAVPRGRDTPRSIDSDMYAVSEVKDKRIKAVERILMTSAADCSLLRSRNLYPSEFDGSRECEYGRCAYRCSNVSVEPGPLPALLGASAAEAVAQVRLDGGGDPAIMKVDMSTLWAEVTAGRRYVNRWGDGAVLRAEGGRLELSAPYGSSEEGRWGDFYKTRNLCYAKMDQDHLRADDLRDSLPQEVEELLTVSPVETIGETASAMPQEVATAILMACVQARADGKTLNVVRRDALLDFYKGFYAMGPSGWTVWLHARGANAKVYDGRRWNPADEDTLEFLAARSAKFTDTRIGYYGLYNPNLKDFCIRDVTQGKRDKVDLRKLTVGRRCVDWDQRTLVHIVARLMKIDGRRDFMPHATLREMRELAEQDPLHEPSDLTSKEACRRFLFWTQKGDNKFRRQDICKAMEKWFIENDLMEDNFDCGHQHKRRGKFA</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="33" xmlns="http://uniprot.org/uniprot">
+    <accession>Q91G85</accession>
+    <name>009R_IIV6</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 009R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV6-009R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 6</name>
+      <name type="common">IIV-6</name>
+      <name type="synonym">Chilo iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="176652"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Iridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Acheta domesticus</name>
+      <name type="common">House cricket</name>
+      <dbReference type="NCBI Taxonomy" id="6997"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Chilo suppressalis</name>
+      <name type="common">Asiatic rice borer moth</name>
+      <dbReference type="NCBI Taxonomy" id="168631"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Gryllus bimaculatus</name>
+      <name type="common">Two-spotted cricket</name>
+      <dbReference type="NCBI Taxonomy" id="6999"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Gryllus campestris</name>
+      <dbReference type="NCBI Taxonomy" id="58607"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Spodoptera frugiperda</name>
+      <name type="common">Fall armyworm</name>
+      <dbReference type="NCBI Taxonomy" id="7108"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2001" name="Virology" volume="286" first="182" last="196">
+        <title>Analysis of the first complete DNA sequence of an invertebrate iridovirus: coding strategy of the genome of Chilo iridescent virus.</title>
+        <authorList>
+          <person name="Jakob N.J."/>
+          <person name="Mueller K."/>
+          <person name="Bahr U."/>
+          <person name="Darai G."/>
+        </authorList>
+        <dbReference type="PubMed" id="11448171"/>
+        <dbReference type="DOI" id="10.1006/viro.2001.0963"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation type="journal article" date="2007" name="Virol. J." volume="4" first="11" last="11">
+        <title>Comparative genomic analysis of the family Iridoviridae: re-annotating and defining the core set of iridovirus genes.</title>
+        <authorList>
+          <person name="Eaton H.E."/>
+          <person name="Metcalf J."/>
+          <person name="Penny E."/>
+          <person name="Tcherepanov V."/>
+          <person name="Upton C."/>
+          <person name="Brunetti C.R."/>
+        </authorList>
+        <dbReference type="PubMed" id="17239238"/>
+        <dbReference type="DOI" id="10.1186/1743-422x-4-11"/>
+      </citation>
+      <scope>GENOME REANNOTATION</scope>
+    </reference>
+    <dbReference type="EMBL" id="AF303741">
+      <property type="protein sequence ID" value="AAK81947.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="NP_149472.1">
+      <property type="nucleotide sequence ID" value="NC_003038.1"/>
+    </dbReference>
+    <dbReference type="PRIDE" id="Q91G85"/>
+    <dbReference type="GeneID" id="1733381"/>
+    <dbReference type="KEGG" id="vg:1733381"/>
+    <dbReference type="OrthoDB" id="29718at10239"/>
+    <dbReference type="Proteomes" id="UP000001359">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="inferred from homology"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0732">Signal</keyword>
+    <feature type="signal peptide" evidence="1">
+      <location>
+        <begin position="1"/>
+        <end position="20"/>
+      </location>
+    </feature>
+    <feature type="chain" id="PRO_0000377959" description="Uncharacterized protein 009R">
+      <location>
+        <begin position="21"/>
+        <end position="85"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <sequence length="85" mass="9522" checksum="10D019471F22B372" modified="2001-12-01" version="1" precursor="true">MIKLFCVLAAFISINSACQSSHQQREEFTVATYHSSSICTTYCYSNCVVASQHKGLNVESYTCDKPDPYGRETVCKCTLIKCHDI</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="30" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZW5</accession>
+    <name>010R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 010R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-010R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="2">Host membrane</location>
+        <topology evidence="2">Single-pass membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09669.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031588.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="2947782"/>
+    <dbReference type="KEGG" id="vg:2947782"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0033644">
+      <property type="term" value="C:host cell membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0016021">
+      <property type="term" value="C:integral component of membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1043">Host membrane</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0812">Transmembrane</keyword>
+    <keyword id="KW-1133">Transmembrane helix</keyword>
+    <feature type="chain" id="PRO_0000410534" description="Uncharacterized protein 010R">
+      <location>
+        <begin position="1"/>
+        <end position="137"/>
+      </location>
+    </feature>
+    <feature type="transmembrane region" description="Helical" evidence="1">
+      <location>
+        <begin position="20"/>
+        <end position="42"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <evidence type="ECO:0000305" key="2"/>
+    <sequence length="137" mass="14878" checksum="69F02C3584628958" modified="2004-07-19" version="1">MKMDTDCRHWIVLASVPVLTVLAFKGEGALALAGLLVMAAVAMYRDRTEKKYSAARAPSPIAGHKTAYVTDPSAFAAGTVPVYPAPSNMGSDRFEGWVGGVLTGVGSSHLDHRKFAERQLVDRREKMVGYGWTKSFF</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2009-06-16" modified="2019-09-18" version="22" xmlns="http://uniprot.org/uniprot">
+    <accession>Q197E9</accession>
+    <name>011L_IIV3</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 011L</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">IIV3-011L</name>
+    </gene>
+    <organism>
+      <name type="scientific">Invertebrate iridescent virus 3</name>
+      <name type="common">IIV-3</name>
+      <name type="synonym">Mosquito iridescent virus</name>
+      <dbReference type="NCBI Taxonomy" id="345201"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Betairidovirinae</taxon>
+        <taxon>Chloriridovirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Aedes vexans</name>
+      <name type="common">Inland floodwater mosquito</name>
+      <name type="synonym">Culex vexans</name>
+      <dbReference type="NCBI Taxonomy" id="7163"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culex territans</name>
+      <dbReference type="NCBI Taxonomy" id="42431"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Culiseta annulata</name>
+      <dbReference type="NCBI Taxonomy" id="332058"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus sollicitans</name>
+      <name type="common">eastern saltmarsh mosquito</name>
+      <dbReference type="NCBI Taxonomy" id="310513"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Ochlerotatus taeniorhynchus</name>
+      <name type="common">Black salt marsh mosquito</name>
+      <name type="synonym">Aedes taeniorhynchus</name>
+      <dbReference type="NCBI Taxonomy" id="329105"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Psorophora ferox</name>
+      <dbReference type="NCBI Taxonomy" id="7183"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2006" name="J. Virol." volume="80" first="8439" last="8449">
+        <title>Genome of invertebrate iridescent virus type 3 (mosquito iridescent virus).</title>
+        <authorList>
+          <person name="Delhon G."/>
+          <person name="Tulman E.R."/>
+          <person name="Afonso C.L."/>
+          <person name="Lu Z."/>
+          <person name="Becnel J.J."/>
+          <person name="Moser B.A."/>
+          <person name="Kutish G.F."/>
+          <person name="Rock D.L."/>
+        </authorList>
+        <dbReference type="PubMed" id="16912294"/>
+        <dbReference type="DOI" id="10.1128/jvi.00464-06"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <dbReference type="EMBL" id="DQ643392">
+      <property type="protein sequence ID" value="ABF82041.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_654583.1">
+      <property type="nucleotide sequence ID" value="NC_008187.1"/>
+    </dbReference>
+    <dbReference type="PRIDE" id="Q197E9"/>
+    <dbReference type="GeneID" id="4156260"/>
+    <dbReference type="KEGG" id="vg:4156260"/>
+    <dbReference type="OrthoDB" id="2692at10239"/>
+    <dbReference type="Proteomes" id="UP000001358">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <feature type="chain" id="PRO_0000377801" description="Uncharacterized protein 011L">
+      <location>
+        <begin position="1"/>
+        <end position="751"/>
+      </location>
+    </feature>
+    <feature type="compositionally biased region" description="Pro-rich">
+      <location>
+        <begin position="123"/>
+        <end position="160"/>
+      </location>
+    </feature>
+    <feature type="compositionally biased region" description="Pro-rich">
+      <location>
+        <begin position="241"/>
+        <end position="272"/>
+      </location>
+    </feature>
+    <sequence length="751" mass="84876" checksum="6C5EA29DA7BDF6F7" modified="2006-07-11" version="1">MMESPKYKKSTCSVTNLGGTCILPQKGATAPKAKDVSPELLVNKMDNLCQDWARTRNEYNKVHIEQAPTDSYFGVVHSHTPKKKYTSRDSDSEPEATSTRRSATAQRAANLKSSPVDQWSTTPPQPQPQPAAPTVKKTCASSPPAALSVKRTCTSPPPPPVLIDDDTGEDAFYDTNDPDIFYDIENGVSELETEGPKRPVYYQRNIRYPIDGSVPQESEQWYDPIDDEFLASSGDVVSLEPSPIAAFQPTPPKTVQFVPMPEEIIVPPPPPPKTVVDEGVQAMPYTVDQMIQTDFEESPLLANVNLRTIPIEEVNPNFSPVLMQDMVRDSFVFGTVAQRVMASQRVKQFFKELIEQDVSLAGRMCMDSGSPQLNLYNSLMGVKLLYRWRSSTTFYRAIVPEIDEPVQVMQDVLSSSEWAKFDSQAGIPPKMVYIHYKLLNDLVKTLICPNFQLTHAALVCVDCRPEAVGSDGLQDGRQRRCSNLVSEYHEMTLEDLFNTIKPADLNAKNIILSVLFQMLYAVATVQKQFGMGGLFANADSVHVRRIQPGGFWHYTVNGLRYSVPNYGYLVILTNFTDVVNYRPDFATTRYFGRRQAKVVPTRNWYKFVPFTTRYRPFVTVDPITQAKTTAYAPNPPTEGITINEFYKDSSDLRPSVPVDLNDMITFPVPEFHLTICRLFSFFSKFYDSNFIGNDPFVRNLVDRYSQPFEFPDVYWPEDGVSRVLACYTIEEIYPNWVDGDTDYVIESYNLD</sequence>
+  </entry>
+  <entry dataset="Swiss-Prot" created="2011-06-28" modified="2019-06-05" version="30" xmlns="http://uniprot.org/uniprot">
+    <accession>Q6GZW4</accession>
+    <name>011R_FRG3G</name>
+    <protein>
+      <recommendedName>
+        <fullName>Uncharacterized protein 011R</fullName>
+      </recommendedName>
+    </protein>
+    <gene>
+      <name type="ORF">FV3-011R</name>
+    </gene>
+    <organism>
+      <name type="scientific">Frog virus 3 (isolate Goorha)</name>
+      <name type="common">FV-3</name>
+      <dbReference type="NCBI Taxonomy" id="654924"/>
+      <lineage>
+        <taxon>Viruses</taxon>
+        <taxon>Iridoviridae</taxon>
+        <taxon>Alphairidovirinae</taxon>
+        <taxon>Ranavirus</taxon>
+      </lineage>
+    </organism>
+    <organismHost>
+      <name type="scientific">Ambystoma</name>
+      <name type="common">mole salamanders</name>
+      <dbReference type="NCBI Taxonomy" id="8295"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Dryophytes versicolor</name>
+      <name type="common">chameleon treefrog</name>
+      <dbReference type="NCBI Taxonomy" id="30343"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Lithobates pipiens</name>
+      <name type="common">Northern leopard frog</name>
+      <name type="synonym">Rana pipiens</name>
+      <dbReference type="NCBI Taxonomy" id="8404"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Notophthalmus viridescens</name>
+      <name type="common">Eastern newt</name>
+      <name type="synonym">Triturus viridescens</name>
+      <dbReference type="NCBI Taxonomy" id="8316"/>
+    </organismHost>
+    <organismHost>
+      <name type="scientific">Rana sylvatica</name>
+      <name type="common">Wood frog</name>
+      <dbReference type="NCBI Taxonomy" id="45438"/>
+    </organismHost>
+    <reference key="1">
+      <citation type="journal article" date="2004" name="Virology" volume="323" first="70" last="84">
+        <title>Comparative genomic analyses of frog virus 3, type species of the genus Ranavirus (family Iridoviridae).</title>
+        <authorList>
+          <person name="Tan W.G."/>
+          <person name="Barkman T.J."/>
+          <person name="Gregory Chinchar V."/>
+          <person name="Essani K."/>
+        </authorList>
+        <dbReference type="PubMed" id="15165820"/>
+        <dbReference type="DOI" id="10.1016/j.virol.2004.02.019"/>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <reference key="2">
+      <citation type="submission" date="2004-02" db="EMBL/GenBank/DDBJ databases">
+        <authorList>
+          <person name="Tan W.G.H."/>
+          <person name="Barkman T.J."/>
+          <person name="Chinchar V.G."/>
+          <person name="Essani K."/>
+        </authorList>
+      </citation>
+      <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    </reference>
+    <comment type="subcellular location">
+      <subcellularLocation>
+        <location evidence="2">Host membrane</location>
+        <topology evidence="2">Single-pass membrane protein</topology>
+      </subcellularLocation>
+    </comment>
+    <dbReference type="EMBL" id="AY548484">
+      <property type="protein sequence ID" value="AAT09670.1"/>
+      <property type="molecule type" value="Genomic_DNA"/>
+    </dbReference>
+    <dbReference type="RefSeq" id="YP_031589.1">
+      <property type="nucleotide sequence ID" value="NC_005946.1"/>
+    </dbReference>
+    <dbReference type="GeneID" id="2947783"/>
+    <dbReference type="KEGG" id="vg:2947783"/>
+    <dbReference type="Proteomes" id="UP000008770">
+      <property type="component" value="Genome"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0033644">
+      <property type="term" value="C:host cell membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-SubCell"/>
+    </dbReference>
+    <dbReference type="GO" id="GO:0016021">
+      <property type="term" value="C:integral component of membrane"/>
+      <property type="evidence" value="ECO:0000501"/>
+      <property type="project" value="UniProtKB-KW"/>
+    </dbReference>
+    <proteinExistence type="predicted"/>
+    <keyword id="KW-0181">Complete proteome</keyword>
+    <keyword id="KW-1043">Host membrane</keyword>
+    <keyword id="KW-0472">Membrane</keyword>
+    <keyword id="KW-1185">Reference proteome</keyword>
+    <keyword id="KW-0812">Transmembrane</keyword>
+    <keyword id="KW-1133">Transmembrane helix</keyword>
+    <feature type="chain" id="PRO_0000410547" description="Uncharacterized protein 011R">
+      <location>
+        <begin position="1"/>
+        <end position="70"/>
+      </location>
+    </feature>
+    <feature type="transmembrane region" description="Helical" evidence="1">
+      <location>
+        <begin position="4"/>
+        <end position="24"/>
+      </location>
+    </feature>
+    <evidence type="ECO:0000255" key="1"/>
+    <evidence type="ECO:0000305" key="2"/>
+    <sequence length="70" mass="7872" checksum="D4A52724E9D798C6" modified="2004-07-19" version="1">MTSVKTIAMLAMLVIVAALIYMGYRTFTSMQSKLNELESRVNAPQLRPPVMSPIVPLNFIESEDLDKELD</sequence>
+  </entry>
+</uniprot>
