@@ -7,5 +7,5 @@ def uniprot_seqrecords(file_location):
     handle = gzip.open(file_location)
     for x in SeqIO.parse(handle, "uniprot-xml"):
         records.append(x)
-
+        records.append('-------------')
     return records

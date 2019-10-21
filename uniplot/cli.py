@@ -1,5 +1,4 @@
-from . import parse
-from . import analysis
+from . import parse, analysis
 import argparse
 
 
@@ -9,7 +8,7 @@ def dump():
 
 def names():
     for x in parse.uniprot_seqrecords("./uniprot_receptor.xml.gz"):
-        print(x.name)
+        print(x.seq)
 
 def average():
     print("Average Length is {}".format(
