@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bc05be5-edb8-4e39-b143-0fd108acc900" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/cli.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571647862057</updated>
       <workItem from="1571647863122" duration="5381000" />
-      <workItem from="1571701114282" duration="2662000" />
+      <workItem from="1571701114282" duration="6680000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Test and Continuous Integration">
       <created>1571721751979</created>
@@ -115,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571721751979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Test and Continuous Integration">
+      <created>1571722098799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571722098799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

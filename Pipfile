@@ -7,8 +7,8 @@ verify_ssl = true
 pytest = "*"
 biopython = "*"
 
-
 [packages]
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
