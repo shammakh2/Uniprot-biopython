@@ -3,7 +3,8 @@ from Bio import SeqIO
 import gzip
 
 def testy():
-    f=SeqIO.parse('resources/uniprot_sprot_small.xml', 'uniprot-xml')
+    g = gzip.open("./resources/uniprot_sprot_small.xml.gz")
+    f=SeqIO.parse(g, 'uniprot-xml')
     y = 0
     ggg = []
     for x in f:
