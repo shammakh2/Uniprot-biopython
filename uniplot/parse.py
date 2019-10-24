@@ -1,10 +1,9 @@
 import gzip
 from Bio import SeqIO
+import io
 
 def uniprot_seqrecords(file_location):
-    records = []
-
     handle = gzip.open(file_location)
-    for x in SeqIO.parse(handle, "uniprot-xml"):
-        records.append(x)
-    return records
+    test = io.BufferedReader(handle,200000000)
+    return SeqIO.parse(test, "uniprot-xml")
+

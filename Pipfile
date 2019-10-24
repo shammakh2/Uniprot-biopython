@@ -9,6 +9,9 @@ biopython = "*"
 
 [packages]
 matplotlib = "*"
+biopython = "*"
+pytest = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"

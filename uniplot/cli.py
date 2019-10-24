@@ -1,6 +1,7 @@
 from . import parse, analysis
 import argparse
 from . import plot
+import time
 
 def dump(loco):
     for x in parse.uniprot_seqrecords(loco):
@@ -9,7 +10,6 @@ def dump(loco):
 def names(loco):
     for x in parse.uniprot_seqrecords(loco):
         print(x.name)
-
 def average(loco):
     print("Average Length is {:.3f}".format(
         analysis.average_len(parse.uniprot_seqrecords(loco))))
@@ -23,7 +23,7 @@ def loc(loco, args, depth = None):
 def cli():
     #Create new parser
     parser = argparse.ArgumentParser(prog="uniplot")
-    parser.add_argument("--loco", type=str, default="./uniprot_receptor.xml.gz")
+    parser.add_argument("--loco", type=str, default="./resources/uniprot_sprot_small.xml.gz")
     parser.set_defaults(func=loc)
     #Add subparsers
     subparsers = parser.add_subparsers(help="Sub Command Help")
@@ -32,6 +32,7 @@ def cli():
     subparsers.add_parser("list").set_defaults(run=loc, func=names)
     subparsers.add_parser("average").set_defaults(run=loc, func=average)
     taxanom = subparsers.add_parser("plot-average-by-taxa")
+    taxanom.add_argument("--depth", type=int, default=0)
     taxanom.add_argument("--depth", type=int, default=0)
     taxanom.set_defaults(run=loc, func=plot_average_by_taxa)
 
