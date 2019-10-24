@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6bc05be5-edb8-4e39-b143-0fd108acc900" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uniplot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,6 +44,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\practical-2\uniplot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\PycharmProjects\practical-2" />
       <recent name="C:\Users\Lenovo\PycharmProjects\practical-2\tests" />
@@ -106,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571647862057</updated>
       <workItem from="1571647863122" duration="5381000" />
-      <workItem from="1571701114282" duration="15728000" />
+      <workItem from="1571701114282" duration="27524000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Test and Continuous Integration">
       <created>1571721751979</created>
@@ -136,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571787151748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Depth 2 plotting in progress">
+      <created>1571827448517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571827448517</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
