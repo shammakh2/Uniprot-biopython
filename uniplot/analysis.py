@@ -16,7 +16,8 @@ def average_len_taxa(records, depth):
         depth = depth - 1
     for r in records:
         taxa = r.annotations["taxonomy"][depth]
-        record_by_taxa.setdefault(taxa, 1)
         if taxa in record_by_taxa:
             record_by_taxa[taxa] = record_by_taxa[taxa]+1
+        else:
+            record_by_taxa.setdefault(taxa, 1)
     return record_by_taxa

@@ -1,8 +1,9 @@
 import matplotlib.pyplot as mlot
 
 def display_barplot (d, t_type):
+    jam = {x+'\n'+str(v) for x, v in d.items()}
     if t_type == 1:
-        mlot.pie(d.values(), labels=d.keys())
+        mlot.pie(d.values(), labels=jam, autopct='%.1f%%')
         mlot.show()
     else:
         r = range(0, len(d))

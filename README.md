@@ -15,6 +15,8 @@ You can also output a list of names of the protein sequences and their origin wh
     pipenv run python uniplot.py list
     
 <h5>3. Average sequence length of the proteins in the database</h5>
+
+<h5>4. Representing Data using charts </h5>
  
 
 ***Note**: These processes will take longer for larger data files as a the program has to load the data*
