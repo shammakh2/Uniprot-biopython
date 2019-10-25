@@ -14,9 +14,13 @@ You can also output a list of names of the protein sequences and their origin wh
 
     pipenv run python uniplot.py list
     
-<h5>3. Average sequence length of the proteins in the database</h5>
+<h5>3. Average length of the proteins</h5>
+The following command can be used to find the average length of all the protein sequences in the database
+
+    pipenv run python uniplot.py average
 
 <h5>4. Representing Data using charts </h5>
+If you want to see the average protein length of different taxanomy levels, you can use the command below to have the data in form of a barchart
  
 
 ***Note**: These processes will take longer for larger data files as a the program has to load the data*
