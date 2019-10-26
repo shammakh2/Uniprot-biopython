@@ -24,6 +24,23 @@ If you want to see the average protein length of different taxonomy levels, you 
  data in form of a barchart. To do so, use the command:
  
     pipenv run python uniplot.py plot-taxa
+    
+This command will present the top-most level of taxonomy(i.e the Domain level) and the count of records in each in the
+ form of a graph; however, to display by different levels the command above can be
+ augmented with `--depth <Level of Taxonomy> ` so if you wanted to display the second level taxonomy the command may 
+ look like
+ 
+    pipenv run python uniplot.py plot-taxa --depth 2
+    
+ ***Note:** Depth 1 is  the highest level and higher values will give lower levels of taxonomy
+
+
+To see the number of records by the level of taxonomy you can display the data as a pie chart which will give the
+ number of records and percentage in the database with `--pie 1` like so
+ 
+ ***Note:** the pie chart argument can be used with the depth argument in the command.*
+ 
+    pipenv run python uniplot.py plot-taxa --depth 2 --pie 1 (1 = True)
 
 
 ***Note**: These processes will take longer for larger data files as a the program has to load the data*
