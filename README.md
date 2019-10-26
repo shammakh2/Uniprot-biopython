@@ -20,7 +20,10 @@ The following command can be used to find the average length of all the protein 
     pipenv run python uniplot.py average
 
 <h5>4. Representing Data using charts </h5>
-If you want to see the average protein length of different taxanomy levels, you can use the command below to have the data in form of a barchart
+If you want to see the average protein length of different taxonomy levels, you can use the command below to have the
+ data in form of a barchart. To do so, use the command:
  
+    pipenv run python uniplot.py plot-taxa
+
 
 ***Note**: These processes will take longer for larger data files as a the program has to load the data*

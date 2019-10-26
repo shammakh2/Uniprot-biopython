@@ -1,8 +1,12 @@
 import matplotlib.pyplot as mlot
 
 def display_barplot (d, t_type):
+    print(d)
+    print(d.values)
     recnum = [x[0] for x in list(d.values())]
-    jam = {x + '\n' + str(v[0]) for x, v in d.items()}
+    print(recnum)
+    jam = [x + '\n' + str(v[0]) for x, v in d.items()]
+    print(jam)
     if t_type == 1:
         mlot.pie(recnum, labels=jam, autopct='%.1f%%')
         mlot.show()
