@@ -33,7 +33,6 @@ def loc(args, loco = None):
         args.func(location, args)
 
 
-
 def cli():
     #Create new parser
     parser = argparse.ArgumentParser(prog="uniplot")
