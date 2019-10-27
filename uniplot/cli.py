@@ -17,9 +17,9 @@ def plot_average_by_taxa(location, args):
     av = analysis.average_len_taxa(parse.uniprot_seqrecords(location), args.depth)
     plot.display_barplot(av, args.pie)
 
-def numpie(location, args):
+def npie(location, args):
     av = analysis.average_len_taxa(parse.uniprot_seqrecords(location), args.depth)
-    plot.display_barplot(av, args.pie)
+    plot.display_numpie(av, args.depth)
 
 def loco(gems):
     deflocation.locorec(gems.location)
@@ -52,7 +52,7 @@ def cli():
     taxanom.set_defaults(run=loc, func=plot_average_by_taxa)
     numpie = subparsers.add_parser("pie")
     numpie.add_argument("--depth", type=int, default=0)
-    numpie.set_defaults(run=loc, func=numpie)
+    numpie.set_defaults(run=loc, func=npie)
 
     #Parse the command line
     args = parser.parse_args()

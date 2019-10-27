@@ -5,9 +5,8 @@ def display_barplot (d, t_type):
     print(d.values)
     recavg = [x[1] for x in list(d.values())]
     print(recavg)
-    jam = [x + '\n' + str(v[0]) for x, v in d.items()]
     if t_type == 1:
-        mlot.pie(recavg, labels=jam, autopct='%.1f%%')
+        mlot.pie(recavg, labels=d.keys(), autopct='%.1f%%')
         mlot.show()
     else:
         r = range(0, len(d))
