@@ -14,7 +14,7 @@ def average_len_taxa(records, depth):
     depth = int(depth)
     if depth <= 0:
         depth = 0
-    elif depth >= 0:
+    elif depth > 0:
         depth = depth - 1
     for r in records:
         taxa = r.annotations["taxonomy"][depth]

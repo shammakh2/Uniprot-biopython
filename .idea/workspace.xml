@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bc05be5-edb8-4e39-b143-0fd108acc900" name="Default Changelist" comment="Bug Fixing&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.0.1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practical-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practical-2.iml" afterDir="false" />
+    <list default="true" id="6bc05be5-edb8-4e39-b143-0fd108acc900" name="Default Changelist" comment="New functionality: File Location&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniplot/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniplot/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniplot/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/uniplot/analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/uniplot/parse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="8" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -59,20 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uniplot/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="252">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uniplot/cli.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -83,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uniplot/plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -128,8 +124,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/uniplot/location" />
         <option value="$PROJECT_DIR$/uniplot/deflocation.py" />
-        <option value="$PROJECT_DIR$/uniplot/cli.py" />
         <option value="$PROJECT_DIR$/uniplot/plot.py" />
+        <option value="$PROJECT_DIR$/uniplot/cli.py" />
+        <option value="$PROJECT_DIR$/uniplot/analysis.py" />
       </list>
     </option>
   </component>
@@ -144,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -283,7 +280,8 @@
       <workItem from="1571701114282" duration="28148000" />
       <workItem from="1572113680299" duration="4235000" />
       <workItem from="1572117999488" duration="4000" />
-      <workItem from="1572118057310" duration="489000" />
+      <workItem from="1572118057310" duration="771000" />
+      <workItem from="1572196813000" duration="1094000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Test and Continuous Integration">
       <created>1571721751979</created>
@@ -327,11 +325,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571905203397</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bug Fixing&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.0.1">
+      <created>1572118584880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572118584880</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New functionality: File Location&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.1.0">
+      <created>1572118719288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572118719288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8990000" />
+    <option name="totallyTimeSpent" value="10366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,16 +356,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.17925279" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.18044515" />
       <window_info id="Structure" order="1" sideWeight="0.50107294" side_tool="true" weight="0.17448331" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49880764" weight="0.2890923" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" sideWeight="0.49880764" visible="true" weight="0.2890923" />
       <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.49880764" weight="0.32951945" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49841017" visible="true" weight="0.32570556" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49841017" weight="0.32570556" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50158983" side_tool="true" weight="0.32570556" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32951945" />
@@ -408,7 +421,14 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="COLUMN_ORDER" />
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -434,7 +454,9 @@
     <MESSAGE value="Completed Assessment 2-1. Worked Practical" />
     <MESSAGE value="Depth 2 plotting in progress" />
     <MESSAGE value="Pie chart progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pie chart progress" />
+    <MESSAGE value="Bug Fixing&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.0.1" />
+    <MESSAGE value="New functionality: File Location&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="New functionality: File Location&#10;Documentation: Work In Progress&#10;Eye Candy and Help information: Work In Progress&#10;V1.1.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practical_2$deflocation.coverage" NAME="deflocation Coverage Results" MODIFIED="1572110752649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uniplot" />
@@ -451,20 +473,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uniplot/deflocation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uniplot/location">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniplot/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,34 +496,37 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/uniplot/plot.py">
+    <entry file="file://$PROJECT_DIR$/uniplot/cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uniplot/deflocation.py">
+    <entry file="file://$PROJECT_DIR$/uniplot/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniplot/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uniplot/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniplot/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
