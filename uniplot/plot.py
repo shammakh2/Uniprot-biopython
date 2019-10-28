@@ -1,10 +1,8 @@
 import matplotlib.pyplot as mlot
 
 def display_barplot (d, t_type):
-    print(d)
-    print(d.values)
+    """Display a bar graph or pie chart, depending on given arguments, showing average sequence length per taxonomy"""
     recavg = [x[1] for x in list(d.values())]
-    print(recavg)
     if t_type == 1:
         mlot.pie(recavg, labels=d.keys(), autopct='%.1f%%')
         mlot.show()
@@ -19,10 +17,8 @@ def display_barplot (d, t_type):
         mlot.show()
 
 def display_numpie (d):
-    print(d)
-    print(d.values)
+    """Display a pie chart showing number of records in each taxanomic category at the given depth"""
     recnum = [x[0] for x in list(d.values())]
-    print(recnum)
     jam = [x + '\n' + str(v[0]) for x, v in d.items()]
     mlot.pie(recnum, labels=jam)
     mlot.show()

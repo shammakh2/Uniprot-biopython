@@ -2,30 +2,37 @@ from . import parse, analysis, plot, deflocation
 import argparse
 
 def dump(location, args):
+    """Print all records from generator"""
     for x in parse.uniprot_seqrecords(location):
         print(x)
 
 def names(location, args):
+    """Print all protein names from generator"""
     for x in parse.uniprot_seqrecords(location):
         print(x.name)
 
 def average(location, args):
+    """Print the average length of all proteins sequences in generator"""
     print("Average Length is {:.3f}".format(
         analysis.average_len(parse.uniprot_seqrecords(location))))
 
 def plot_average_by_taxa(location, args):
+    """Pass generator and depth for plotting averages"""
     av = analysis.average_len_taxa(parse.uniprot_seqrecords(location), args.depth)
-    plot.display_barplot(av, args.pie)
+    plot.display_barplot(av, args.piemode)
 
 def npie(location, args):
+    """Pass generator and depth for plotting number of records"""
     av = analysis.average_len_taxa(parse.uniprot_seqrecords(location), args.depth)
     plot.display_numpie(av)
 
 def loco(gems):
+    """Save entered file location"""
     deflocation.locorec(gems.location)
 
 
 def loc(args, loco = None):
+    """Pass temporary or saved location and run functions. Priority given to temporary location"""
     location = deflocation.locoload()
     if loco != None:
         args.func(loco, args)
@@ -36,7 +43,7 @@ def loc(args, loco = None):
 def cli():
     #Create new parser
     parser = argparse.ArgumentParser(description="This program analyses and returns GNU zipped uniprot-xml database files")
-    parser.add_argument("--loco", type=str, default=None)
+    parser.add_argument("--loco", type=str, default=None, help="Use '--loco' to pass in a temporary file location", metavar='file-location')
     #Add subparsers
     subparsers = parser.add_subparsers(help="Sub Command Help")
 

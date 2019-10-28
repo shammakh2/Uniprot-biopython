@@ -8,6 +8,7 @@ def average_len(records):
     return count/record_num
 
 def average_len_taxa(records, depth):
+    """"Return count of records and sequence average for record as dictionary."""
     record_by_taxa = {}
     record_count = {}
     record_names = []
