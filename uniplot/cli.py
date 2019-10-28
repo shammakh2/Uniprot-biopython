@@ -19,7 +19,7 @@ def plot_average_by_taxa(location, args):
 
 def npie(location, args):
     av = analysis.average_len_taxa(parse.uniprot_seqrecords(location), args.depth)
-    plot.display_numpie(av, args.depth)
+    plot.display_numpie(av)
 
 def loco(gems):
     deflocation.locorec(gems.location)

@@ -24,6 +24,6 @@ def display_numpie (d):
     recnum = [x[0] for x in list(d.values())]
     print(recnum)
     jam = [x + '\n' + str(v[0]) for x, v in d.items()]
-    mlot.pie(recnum, labels=jam, autopct='%.1f%%')
+    mlot.pie(recnum, labels=jam)
     mlot.show()
 
