@@ -14,14 +14,14 @@ commands without needing to type the file location repeatedly. The command is
     
     python uniplot.py location < enter file location >
 
-📍***Note:** This command only stores one location.*
+***Note:** This command only stores one location.*
 <h6>b. Temporary file location </h6>
 If you want to temporarily switch to another file for processing, you can use the `--loco` command to pass a
 file location argument. 
 
     python uniplot.py --loco <insert file_location> [Further processing options such as dump,list,etc.]  
     
-📍***Note:** Temporary location takes priority*
+***Note:** Temporary location takes priority*
 
 <h5>🚩2. Complete Data output </h5>
 One of the central features of this program is output of data. You can do this by using this command:
@@ -52,7 +52,7 @@ of a graph; however, to display different levels the command above can be
  
     python uniplot.py plot-taxa --depth 2
     
-📍***Note:** Depth 1 is  the highest level (and also the default) and higher values will give lower levels of taxonomy*
+***Note:** Depth 1 is  the highest level (and also the default) and higher values will give lower levels of taxonomy*
 
 
 You can also get the average length of the protein sequence by the level of taxonomy as a pie chart, which will give the
@@ -60,7 +60,7 @@ You can also get the average length of the protein sequence by the level of taxo
  
     python uniplot.py plot-taxa --depth 2 --pie 1 (1 = True)
     
-📍***Note:** the pie chart argument can be used with the depth argument in the command.*
+***Note:** the pie chart argument can be used with the depth argument in the command.*
     
 <h6>b. Display the number of proteins for each taxonomic category</h6>
 You can also display the number of records in taxonomic categories of different levels in the form of a pie chart.
@@ -68,7 +68,7 @@ Use the command and also pass a (optional) depth argument `--depth <level>` (def
 
     python uniplot.py pie --depth 1
 
-📍***Note**: These processes will take longer for larger data files as a the program has to load the data* 🕝 🕒 🕞
+***Note**: These processes will take longer for larger data files as a the program has to load the data* 🕝 🕒 🕞
 
 <h4> -Improvements </h4>
 
