@@ -5,7 +5,7 @@ It comes with a few key functions that allow dispensing and manipulation of data
 
 <h4> -Functionality </h4>
 
-🚩<h5>🚩1. Setting up Uniprot file location</h5>
+<h5>🚩1. Setting up Uniprot file location</h5>
 To be able to parse data from your GNU zipped uniprot .xml file and analyse it, you need to specify the file location.
 This can be done in 2 ways:
 <h6>a. Saving file location</h6>
