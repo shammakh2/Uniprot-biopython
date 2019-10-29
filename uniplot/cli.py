@@ -41,6 +41,7 @@ def loc(args, loco = None):
 
 
 def cli():
+    """Parse all arguments from commandline and call appropriate functions"""
     #Create new parser
     parser = argparse.ArgumentParser(description="This program analyses and returns GNU zipped uniprot-xml database files")
     parser.add_argument("--loco", type=str, default=None, help="Use '--loco' to pass in a temporary file location", metavar='file-location')

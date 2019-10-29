@@ -5,4 +5,5 @@ import uniplot.parse
 test_file = "resources/uniprot_sprot_small.xml.gz"
 
 def test_average():
+    """Test analysis average_len function"""
     assert uniplot.analysis.average_len(uniplot.parse.uniprot_seqrecords(test_file)) == 5449/18
