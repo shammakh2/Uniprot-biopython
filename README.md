@@ -72,11 +72,11 @@ Use the command and also pass a (optional) depth argument `--depth <level>` (def
 
 <h4> -Improvements </h4>
 
-* Better and more informative help menu
-* Detailed `README.md`
-* Storing file location for further processing
-* Bar graph and pie chart showing average length of protein sequence
-* Pie chart showing number of proteins per taxonomy
+* :sparkles: Better and more informative help menu ✔
+* Detailed `README.md` ✔
+* Storing file location for further processing ✔
+* Bar graph and pie chart showing average length of protein sequence ✔
+* Pie chart showing number of proteins per taxonomy ✔
 
     
     
