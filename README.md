@@ -52,7 +52,7 @@ of a graph; however, to display different levels the command above can be
  
     python uniplot.py plot-taxa --depth 2
     
- ***Note:** Depth 1 is  the highest level (and also the default) and higher values will give lower levels of taxonomy
+ ***Note:** Depth 1 is  the highest level (and also the default) and higher values will give lower levels of taxonomy*
 
 
 You can also get the average length of the protein sequence by the level of taxonomy as a pie chart, which will give the
